@@ -1,0 +1,96 @@
+export var NormalRadarInfo =[
+    {
+        "label":"独立",
+        "value":115
+    },{
+        "label":"理性",
+        "value":120
+    },{
+        "label":"同理心",
+        "value":75
+    },{
+        "label":"幽默感",
+        "value":70
+    },{
+        "label":"直率",
+        "value":70
+    },{
+        "label":"执着",
+        "value":85
+    }
+];
+export var JobRadarInfo =[
+    {
+        "label":"学习能力",
+        "max":120,
+        "value":95
+    },{
+        "label":"感染力",
+        "max":120,
+        "value":80
+    },{
+        "label":"执行力",
+        "max":120,
+        "value":85
+    },{
+        "label":"执着",
+        "max":120,
+        "value":80
+    },{
+        "label":"抗挫力",
+        "max":120,
+        "value":75
+    },{
+        "label":"责任感",
+        "max":120,
+        "value":85
+    }
+];
+export var SkillRadarInfo =[
+    {
+        "label":"CSS",
+        "max":120,
+        "value":88
+    },{
+        "label":"Java-\nScript",
+        "max":120,
+        "value":113
+    },{
+        "label":"Node.js",
+        "max":120,
+        "value":70
+    },{
+        "label":"PHP",
+        "max":120,
+        "value":65
+    },{
+        "label":"DB",
+        "max":120,
+        "value":60
+    },{
+        "label":"UI设计",
+        "max":120,
+        "value":82
+    }
+];
+export var AcgRadarInfo =[
+    {
+        "label":"黑化",
+        "value":139
+    },{
+        "label":"傲娇",
+        "value":93
+    },{
+        "label":"独行",
+        "value":120
+    },{
+        "label":"装傻",
+        "value":85
+    },{
+        "label":"吐槽",
+        "value":70
+    },{
+        "label":"理性",
+        "value":149
+    }
+];
