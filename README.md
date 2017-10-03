@@ -1,6 +1,6 @@
 # 花生PeA的个人资料 | pea3nut.info
 
-本仓库是网站 pea3nut.info 的源码
+本仓库是网站 pea3nut.info 的源码。
 
 # 项目部署
 
@@ -18,12 +18,15 @@ npm run build
 npm run build --report
 ```
 
-要详细了解项目是如何工作的，请参考 [guide](http://vuejs-templates.github.io/webpack/) 和 [docs for vue-loader](http://vuejs.github.io/vue-loader).
+要详细了解项目是如何工作的，请参考[pea3nut.info/about](http://pea3nut.info/about)、[guide](http://vuejs-templates.github.io/webpack/)、[docs for vue-loader](http://vuejs.github.io/vue-loader)。
 
-# License
+# 开源许可
 
 - 除文字内容外，遵从MIT协议
 - 文字内容遵从MPL2.0协议
 
-也就是说，你几乎可以自由使用本项目的任何代码。但是涉及到花生PeA个人的资料部分，则需要遵从MPL2.0协议。
+你几乎可以自由使用本项目的任何代码。但是涉及到花生PeA个人的资料部分，则需要遵从MPL2.0协议。也就是说你可以直接fork本项目，代码原封不动，仅将文字内容更新为自己的信息，然后直接上线。
 
+不是硬性要求：
+
+> 当你使用本项目的代码时，希望你可以注明 [pea3nut.info/about](http://pea3nut.info/about) 的链接。谢谢。

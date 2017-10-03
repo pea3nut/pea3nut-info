@@ -164,13 +164,7 @@
 
             ### 版权说明
 
-            注意，本项目**不是**开源项目！！
-
-            由于个人信息的敏感性，项目源码中包含许多不合适公开的信息，尽请谅解。
-
-            但是，你可以自由使用、借鉴本页面**除文字**内容外的**任何**设计或素材，只需注明参考来源为`pea3nut.info`并添加`http://pea3nut.info/about`链接即可。
-
-            更多的公开可使用的素材、工具库等请访问[pea3nut.org](//pea3nut.org)来了解更多。
+            本项目已成为开源项目，具体请参考[Github: pea3nut-info](https://github.com/pea3nut/pea3nut-info)。
         </text-body>
     </div>
 </template>
