@@ -262,7 +262,7 @@
 </template>
 
 <script>
-import {formatDate} from 'libPea3nutOrg/src/js/function.both.js';
+import {formatDate} from 'pea-scripts/dist/function.browser.js';
 export default {
     extends :require('@/components/abstract/page.vue'),
     name :'page-job',

@@ -13,7 +13,7 @@
 </template>
 
 <style scoped="scoped" lang="scss">
-@import "~libPea3nutOrg/src/scss/variable.scss";
+@import "~pea-styles/scss/variable.scss";
 footer{
     color: $peaBlank;
     background-color: #fff;

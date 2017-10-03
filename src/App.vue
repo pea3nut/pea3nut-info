@@ -37,8 +37,7 @@
 import Vuex from 'vuex';
 import Router from './config/router.js';
 import MainModules from '@/components/main-modules'
-import {debounce} from 'libPea3nutOrg/src/js/function.both.js';
-import {getElementPosition} from 'libPea3nutOrg/src/js/function.browser.js';
+import {debounce,getElementPosition} from 'pea-scripts/dist/function.browser.js';
 
 export default {
     name :'app',
@@ -87,7 +86,7 @@ export default {
 </script>
 
 <style lang="scss" scoped="scoped">
-@import "~libPea3nutOrg/src/scss/variable.scss";
+@import "~pea-styles/scss/variable.scss";
 #main{
     #main-body{
         position: relative;

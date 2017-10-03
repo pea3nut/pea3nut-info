@@ -9,7 +9,7 @@
 
 <script>
 import Marked from 'marked';
-import {getRandomChar} from 'libPea3nutOrg/src/js/function.both.js';
+import {getRandomChar} from 'pea-scripts/dist/function.browser.js';
 export default {
     name :'markdown-render',
     props :{

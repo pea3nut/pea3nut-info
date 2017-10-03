@@ -1,5 +1,5 @@
 
-export const LastUpdateTime =1507007552823;
+export const LastUpdateTime =1507021435137;
 export const FragmentNormal =[
     '就是因为无法认同镜中的自己才会自取灭亡',
     '想知道更多……',
@@ -35,5 +35,5 @@ export const Info ={
     now_state_job  :'Mozilla 实习中',
     present_address:'山东省 青岛市',
     marriage       :'单身',
-    last_update    :1507007552838
+    last_update    :1507021435137
 };

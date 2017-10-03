@@ -46,7 +46,7 @@ export default {
 </script>
 
 <style lang="scss" scoped="scoped">
-@import "~libPea3nutOrg/src/scss/variable.scss";
+@import "~pea-styles/scss/variable.scss";
 .container-with-tabs{
     *{
         box-sizing:border-box;

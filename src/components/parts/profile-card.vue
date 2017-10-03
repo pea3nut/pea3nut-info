@@ -69,7 +69,7 @@ export default{
 
 
 <style lang="scss">
-@import "~libPea3nutOrg/src/scss/variable.scss";
+@import "~pea-styles/scss/variable.scss";
 .profile-card__mobile{
     .radar-img{
         margin-bottom: 10px;
@@ -79,7 +79,7 @@ export default{
 </style>
 
 <style scoped="scoped" lang="scss">
-@import "~libPea3nutOrg/src/scss/variable.scss";
+@import "~pea-styles/scss/variable.scss";
 .profile-card{
     display: flex;
     align-items:center;

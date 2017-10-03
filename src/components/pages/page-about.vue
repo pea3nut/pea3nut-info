@@ -183,7 +183,7 @@ export default {
 </script>
 
 <style scoped="scoped" lang="scss">
-@import "~libPea3nutOrg/src/scss/pea-class.scss";
+@import "~pea-styles/scss/pea-class.scss";
 .page-about{
     .text-body+.block-collapsible
     ,.text-body+.block-decal

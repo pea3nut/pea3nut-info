@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style scoped="scoped" lang="scss">
-@import "~libPea3nutOrg/src/scss/variable.scss";
+@import "~pea-styles/scss/variable.scss";
 .block-justify{
     width:100%;
     display: flex;

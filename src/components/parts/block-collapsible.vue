@@ -22,8 +22,8 @@
 </template>
 
 <script>
-import {debounce} from 'libPea3nutOrg/src/js/function.both.js';
-import {getElementPosition} from 'libPea3nutOrg/src/js/function.browser.js';
+import {debounce} from 'pea-scripts/dist/function.browser.js';
+import {getElementPosition} from 'pea-scripts/dist/function.browser.js';
 export default{
     name:'block-collapsible',
     props:{
@@ -77,7 +77,7 @@ export default{
 </script>
 
 <style lang="scss">
-@import "~libPea3nutOrg/src/scss/variable.scss";
+@import "~pea-styles/scss/variable.scss";
 .block-collapsible{
     .block-collapsible--radar__min-mode{
         position: absolute;

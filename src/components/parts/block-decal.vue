@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import {getRandom} from 'libPea3nutOrg/src/js/function.both.js';
+import {getRandom} from 'pea-scripts/dist/function.browser.js';
 export default{
     name:'block-decal',
     props:['img-src','lang'],
@@ -28,8 +28,8 @@ export default{
 </script>
 
 <style scoped="scoped" lang="scss">
-@import "~libPea3nutOrg/src/scss/variable.scss";
-@import "~libPea3nutOrg/src/scss/pea-class.scss";
+@import "~pea-styles/scss/variable.scss";
+@import "~pea-styles/scss/pea-class.scss";
 .block-decal{
     background-color: #f5f5d5;
     border:2px dotted #f5e4cc;

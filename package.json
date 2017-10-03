@@ -5,7 +5,7 @@
   "author": "pea3nut",
   "private": true,
   "scripts": {
-    "dev": "node build/pea-build.js && node build/dev-server.js",
+    "dev": "node build/pea-build.js --dev && node build/dev-server.js",
     "build": "node build/pea-build.js && node build/build.js"
   },
   "dependencies": {
@@ -13,6 +13,7 @@
     "echarts": "^3.7.1",
     "font-awesome": "^4.7.0",
     "marked": "^0.3.6",
+    "pea-scripts": "0.0.2",
     "vue": "^2.3.3",
     "vue-router": "^2.6.0",
     "vuex": "^2.3.1"
@@ -42,6 +43,7 @@
     "opn": "^5.1.0",
     "optimize-css-assets-webpack-plugin": "^2.0.0",
     "ora": "^1.2.0",
+    "pea-styles": "0.0.1",
     "rimraf": "^2.6.0",
     "sass-loader": "^6.0.6",
     "semver": "^5.3.0",

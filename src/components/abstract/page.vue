@@ -1,5 +1,5 @@
 <script>
-import * as BrowserFunctions from 'libPea3nutOrg/src/js/function.browser.js';
+import * as BrowserFunctions from 'pea-scripts/dist/function.browser.js';
 import * as Functions from '@/assets/js/function.js';
 import * as Config from '@/config/config.js';
 import * as RadarInfo from '@/config/radar-config.js';
@@ -29,7 +29,7 @@ export default {
         }.call(this,this.mobileMode));
     },
     methods :{
-        ...require('libPea3nutOrg/src/js/function.both.js'),
+        ...require('pea-scripts/dist/function.browser.js'),
         ...BrowserFunctions,
         ...Functions,
     },
