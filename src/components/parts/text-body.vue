@@ -59,7 +59,7 @@ export default {
                     toolTipArr.length=0;
                     focusEltArr.length=0;
                 }
-            });
+            },{passive: true});
             document.body.addEventListener(eventType,function(event){
                 if(event.target.matches(`.${vm.$options.name}--pea-hidden`)){
                     if(event.target.classList.contains(`${vm.$options.name}--pea-hidden__show`)){
@@ -70,7 +70,7 @@ export default {
                         event.target.classList.remove(`${vm.$options.name}--pea-hidden__hidden`);
                     }
                 };
-            });
+            },{passive: true});
             async function createTip(tarElt){
                 const conElt =document.createElement('div');
                 const contentText =decodeURIComponent(tarElt.getAttribute('data-pea-tooltip'));

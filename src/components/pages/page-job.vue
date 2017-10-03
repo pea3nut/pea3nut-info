@@ -315,15 +315,13 @@ export default {
             return[{
                 label:'下载',
                 text:`
-                    <a href="/static/pea3nut-web-standard-resume.pdf" target="_blank">正常版</a>
+                    <a href="/static/resource/resume/pea3nut-web-resume.pdf" target="_blank">正常版</a>
                     /
-                    <a href="/static/pea3nut-web-full-resume.pdf" target="_blank">超级完整版</a>
-                    /
-                    <a href="/static/pea3nut-web-image-resume.png" target="_blank">单页图片版</a>
+                    <a href="/static/resource/resume/pea3nut-web-image-resume.png" target="_blank">单页图片版</a>
                 `,
             },{
                 label :'最后更新',
-                text :formatDate(this.Info['last_update'],{hasTime:false,fillZeroOfDate:false}),
+                text :formatDate(this.LastUpdateTime,{hasTime:false,fillZeroOfDate:true}),
             }];
         },
     },

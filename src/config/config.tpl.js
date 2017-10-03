@@ -41,7 +41,6 @@ export const Info ={
     now_state_job  :'Mozilla 实习中',
     present_address:'山东省 青岛市',
     marriage       :'单身',
-    last_update    :${+new Date}
 };
 `;
 
