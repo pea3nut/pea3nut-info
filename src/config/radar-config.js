@@ -3,17 +3,17 @@ export var NormalRadarInfo =[
         "label":"独立",
         "value":115
     },{
-        "label":"理性",
-        "value":120
+        "label":"幽默感",
+        "value":70
     },{
         "label":"同理心",
         "value":75
     },{
-        "label":"幽默感",
-        "value":70
-    },{
         "label":"直率",
         "value":70
+    },{
+        "label":"理性",
+        "value":120
     },{
         "label":"执着",
         "value":85

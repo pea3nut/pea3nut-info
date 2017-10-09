@@ -1,7 +1,8 @@
 
 /* auto generate */
 
-export const DevelopMode =true;
+export const DevelopMode =false;
+export const LastUpdateTime =1507550723453;
 export const FragmentNormal =[
     '就是因为无法认同镜中的自己才会自取灭亡',
     '想知道更多……',
@@ -38,4 +39,3 @@ export const Info ={
     present_address:'山东省 青岛市',
     marriage       :'单身',
 };
-export const LastUpdateTime =1507032736451;

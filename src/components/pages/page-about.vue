@@ -203,6 +203,10 @@ export default {
         }
     }
     &.page-about__mobile{
+        @media only screen and (max-width: 330px) {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
         .text-body:last-child{
             padding:0 0.5em 5em;
         }

@@ -109,6 +109,13 @@ export default {
         }
     },
     mounted(){
+
+        // preload img
+        [this.imgSrc,this.imgSrcHover].forEach(url=>{
+            var img =new Image();
+            img.src=url;
+        });
+
         this.showImgElt =this.$refs['stt-img-show'];
 
 

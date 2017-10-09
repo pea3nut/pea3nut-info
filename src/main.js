@@ -6,7 +6,6 @@ import App from './App.vue';
 import '@/assets/scss/bootstrap.scss';
 import '@/assets/scss/style.scss';
 
-
 Vue.config.productionTip = true;
 
 Vue.mixin(require('@/components/abstract/pea-rule.vue'));

@@ -202,9 +202,18 @@ export default {
         max-width:100%;
         line-height:$allPLineHeight;
     }
-    ul li{
-        margin-bottom: 0.3em;
-        line-height:1.5em;
+    &.text-body__mobile p{
+        text-indent:1em;
+    }
+    ul{
+        padding-left:2.5em;
+        li{
+            margin-bottom: 0.3em;
+            line-height:1.5em;
+        }
+    }
+    &.text-body__mobile ul{
+        padding-left:1.5em;
     }
     img{
         max-width:96%;

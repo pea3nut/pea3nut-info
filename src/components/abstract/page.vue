@@ -69,8 +69,8 @@ export default {
         }
     }
     @media only screen and (max-width: 330px) {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
         &>.block-collapsible{
             margin-bottom:40px;
             padding-left:10px;
