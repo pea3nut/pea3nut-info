@@ -13,7 +13,8 @@
     "echarts": "^3.7.1",
     "font-awesome": "^4.7.0",
     "marked": "^0.3.6",
-    "pea-scripts": "0.0.2",
+    "moveto": "^1.7.1",
+    "pea-scripts": "0.0.3",
     "vue": "^2.3.3",
     "vue-router": "^2.6.0",
     "vuex": "^2.3.1"

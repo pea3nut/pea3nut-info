@@ -38,6 +38,7 @@ import Vuex from 'vuex';
 import Router from './config/router.js';
 import MainModules from '@/components/main-modules'
 import {debounce,getElementPosition} from 'pea-scripts/dist/function.browser.js';
+import MoveTo from 'moveto';
 
 export default {
     name :'app',
@@ -62,12 +63,12 @@ export default {
             },
             idle :300,
             context :this,
-            run :true,
+            runSync :true,
         }));
     },
     mounted(){
         {// scroll to pea-focus
-            let hash = location.hash.substr(1);
+            let hash = decodeURIComponent(location.hash.substr(1));
             if(
                 hash
                 && (document.getElementById(hash) === null)
@@ -78,9 +79,9 @@ export default {
                 ).find(elt => elt.dataset.peaFocus === hash);
                 if(!elt) return;
                 elt.dispatchEvent(new Event('focus'));
-                window.scrollTo(0 ,getElementPosition(elt).y - 70);
-            }
-        }
+                (new MoveTo()).move(elt);
+            };
+        };
     },
 }
 </script>
