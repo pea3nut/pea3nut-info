@@ -51,6 +51,7 @@ export default{
                 if(this.$el.clientWidth<=320){
                     radars.forEach(elt=>{
                         elt.classList.add(className);
+                        elt.style.left =null;
                         elt.style.left =
                             -getElementPosition(elt).x
                             +(document.body.clientWidth -parseInt(getComputedStyle(elt).width))/2
