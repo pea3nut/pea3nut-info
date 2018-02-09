@@ -67,7 +67,7 @@ export default {
         }));
     },
     mounted(){
-        {// scroll to pea-focus
+        window.addEventListener('hashchange',function _self(){
             let hash = decodeURIComponent(location.hash.substr(1));
             if(
                 hash
@@ -81,7 +81,8 @@ export default {
                 elt.dispatchEvent(new Event('focus'));
                 (new MoveTo()).move(elt);
             };
-        };
+            return _self;
+        }());
     },
 }
 </script>
