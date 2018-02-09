@@ -299,7 +299,7 @@ export default {
                 print:false,
             },{
                 label:'E-mail',
-                text:'626954412[at]qq.com',
+                text:'pea3nut[at]qq.com',
             },{
                 label:'希望地区',
                 text:'互联网一二线城市',

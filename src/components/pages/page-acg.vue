@@ -384,6 +384,13 @@
 
             这就是花生所谓的GJ部，一部普通的日常番，却寄托了些什么。
         </block-collapsible>
+        <block-collapsible title="写日记" lang="md" :folded="true">
+            无助、迷茫。没有人支持，没有人理解，没有任何人的肯定，甚至连个说话的人都没有。
+
+            想不通，感觉自己就要坏掉了。
+
+            那么，写日记将是花生最后的手段。
+        </block-collapsible>
         <block-justify     title="番剧" :class="$options.name+'--animation'">
             <block-justify-row lang="md" title="">
                 花生看过觉得很有感悟的番，以及写的与番相关的博客文章，均整理于此

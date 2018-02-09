@@ -137,7 +137,7 @@ export default {
                 text:'花生PeA',
             },{
                 label:'常用ID',
-                text:'pea3nut、PeA_nut、花生花生花、卓·花生、一滴水滴p',
+                text:'pea3nut、PeA_nut、花生花生花、一滴水滴p',
             },{
                 label:'性别',
                 text:'男 <i class="fa fa-mars" style="color:#5b75ff;font-weight: bold;"></i>',
