@@ -13,7 +13,7 @@
         </block-collapsible>
         <block-collapsible lang="md" title="技术剖面" class="skill-profile">
 
-            计算机-网络工程专业，自2014年6月开始独立自学Web开发技术。技术狂人，**GitHub 100+ Star**达成！大学期间读完超过10本技术书籍！
+            计算机-网络工程专业，自2014年6月开始独立自学Web开发技术。技术狂人，**GitHub 300+ Star**达成！大学期间读完超过10本技术书籍！
 
             <radar-img :radar-value="SkillRadarInfo"></radar-img>
 
@@ -34,10 +34,42 @@
 
             更详细的开发技术介绍可以在下方“技能”专栏找到
         </block-collapsible>
+        <block-justify title="工作">
+            <block-justify-row lang="md" title="百度">
+                2018.3 - 2018.6，Web前端（实习）
+
+                2018.7至今，Web前端
+
+                ---
+
+                - 实习期间在KITT.AI团队，为NLU、FAQ新功能提供GUI支持
+                - 适应能力极强，实习期间（53天）完成26个Task，获“2倍简单奖”
+                - 工作认真，每周周报字数在一千字左右，将感想写成博客[《你不是一个前端》](http://blog.pea3nut.com/e1042)，被InfoQ前端之巅、奇舞周刊转载，sfgg每周精选文章第二名
+
+            </block-justify-row>
+            <block-justify-row lang="md" title="Mozilla">
+                2017.7 - 2018.2，Web前端（实习）
+
+                ---
+
+                - 负责Firefox中国版本地化扩展开发，使其更加符合国人操作习惯
+                - 使用WebExtensions为Firefox添加Add-on，工作效率拔群，在2周内重构完成5个Add-on
+                - 在开发Add-on的同时不忘造轮子，设计开发用于WebExtensions的Chaz库
+                - GitHub： github.com/pea3nut/Chaz
+                - 参与产品讨论，共同制定Add-on形式及功能
+
+                ---
+
+                离职原因：
+
+                1. 环境太过悠闲，工作氛围、技术氛围不够浓厚
+                1. 收到了百度的Special Offer
+            </block-justify-row>
+        </block-justify>
         <block-collapsible lang="md" title="自我评价" :folded="true" v-if="false">
             好胜心强，崇尚竞争。喜欢第一名的畅快淋漓，也不讨厌失败后的惨痛教训！
 
-            互联网的真爱粉，开源运动的践行者。一直在尽自己绵薄之力让互联网变的更好：开源、发Pull request、勘误、翻译MDN
+            互联网的真爱粉，开源运动的践行者。一直在尽自己绵薄之力让互联网变的更好：开源、发Pull request、勘误、翻译MDN。
 
             富有童心，积极乐观。永远保持一颗好奇心不断向前，擅长融入新环境，交际虽略显笨拙，但却真实。
         </block-collapsible>
@@ -46,10 +78,10 @@
             1. 2014年9月考入青岛理工大学网络工程专业
             2. 大一上学期：
                 - 创建技术交流社团“Web开发协会”，担当会长
-            2. 大一下学期：
+            3. 大一下学期：
                 - 注册公司“青岛卓然独立网络科技有限公司”，担当企业法人
                 - 创建“Nutjs团队”，获批入驻“青岛理工大学创业孵化基地”
-            3. 大二上学期：
+            4. 大二上学期：
                 - 使用WordPress搭建个人博客：[blog.pea3nut.com](http://blog.pea3nut.com/)
                 - 将协会推广至山东科技大学、中国石油大学，协会总人数100+
                 - 担任Mozilla Firefox校园大使
@@ -62,7 +94,13 @@
             7. 大三下学期：
                 - 取得360前端星计划参与资格，顺利毕业（60/1000）
                 - GitHub开源项目Pxer，100+ Star达成！
-                - 取得Mozilla Beijing Web前端实习
+                - 取得Mozilla Beijing Web前端实习Offer
+            8. 大四上学期：
+                - Mozilla Beijing实习
+                - 斩获百度2017校园秋季招聘Special Offer
+            9. 大四下学期
+                - 百度度秘团队实习
+                - 校优秀毕业论文一等奖，顺利毕业
         </block-collapsible>
         <block-justify title="技能">
             <block-justify-row lang="md" title="HTML+CSS">
@@ -98,7 +136,7 @@
             <block-justify-row lang="md" title="设计">
                 具有基本的设计功底，了解基本的设计原则，研究过相关书籍。
 
-                熟练使用Photoshop、Firework设计工具制作、处理各种素材。
+                熟练使用Photoshop、Sketch、Firework等设计工具。
 
                 对于用户体验有比较深刻的理解，经常做出“看起来不是特别漂亮，但用起来却意外**舒服**”的产品。
             </block-justify-row>

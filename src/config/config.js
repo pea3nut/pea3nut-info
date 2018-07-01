@@ -2,7 +2,7 @@
 /* auto generate */
 
 export const DevelopMode =false;
-export const LastUpdateTime =1518182488423;
+export const LastUpdateTime =1530432501226;
 export const FragmentNormal =[
     '就是因为无法认同镜中的自己才会自取灭亡',
     '想知道更多……',
@@ -37,8 +37,8 @@ export const FragmentAcg =[
     '明明世界那么大，什么都不知道的我，就要消失了',
 ];
 export const Info ={
-    now_state      :'上学ing',
-    now_state_job  :'Mozilla 实习中',
+    now_state      :'工作ing',
+    now_state_job  :'百度 Web前端开发',
     present_address:'北京市',
     marriage       :'单身',
 };

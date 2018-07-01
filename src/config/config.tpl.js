@@ -20,6 +20,7 @@ export const FragmentNormal =[
     '没有来电，没有邮件，电量也没剩多少了，我讨厌这样的手机',
     '若能以言语以言喻',
     '人生处处皆修行',
+    '路途越远越有努力的价值',
 ];
 export const Fragment =[
     'pea3nut is here, always.',
@@ -40,8 +41,8 @@ export const FragmentAcg =[
     '明明世界那么大，什么都不知道的我，就要消失了',
 ];
 export const Info ={
-    now_state      :'上学ing',
-    now_state_job  :'Mozilla 实习中',
+    now_state      :'工作ing',
+    now_state_job  :'百度 Web前端开发',
     present_address:'北京市',
     marriage       :'单身',
 };
