@@ -1,7 +1,7 @@
 <template>
-    <div v-pea-focus="title">
+    <div>
         <div :class="$options.name+'--title'">
-            <h3 v-text="title"></h3>
+            <h3 v-text="title" v-pea-focus="title"></h3>
             <hr />
         </div>
         <slot></slot>

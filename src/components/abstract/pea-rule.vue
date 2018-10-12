@@ -1,6 +1,8 @@
 <script>
 import {countClassData,useClassData} from '@/assets/js/function.js';
 import Store from '@/config/store.js';
+import {peaFocus} from '@/assets/js/pea-focus';
+
 export default {
     computed:{
         peaRuleClassData(){
@@ -18,9 +20,7 @@ export default {
         }.call(this,this.peaRuleClassData));
     },
     directives:{
-        'pea-focus'(elt,{value}){
-            elt.dataset.peaFocus=value;
-        },
+        peaFocus,
     },
 };
 </script>

@@ -1,6 +1,6 @@
 <template>
-    <div v-pea-focus="title">
-        <div :class="$options.name+'--label'" v-text="title"></div>
+    <div>
+        <div :class="$options.name+'--label'" v-text="title" v-pea-focus="title"></div>
         <text-body :class="$options.name+'--text'" :lang="lang">
             <slot></slot>
         </text-body>

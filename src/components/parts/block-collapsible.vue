@@ -4,11 +4,10 @@
                 {[$options.name+'__folded']:isFolded},
                 peaRuleClassData
             )"
-            v-pea-focus="title"
             @focus="isFolded=false"
     >
         <fieldset>
-            <legend @click="switchFold">
+            <legend @click="switchFold" v-pea-focus="title">
                 {{title}}<span class="fa pea-print__hidden" :class="isFolded?'fa-caret-up':'fa-caret-down'"></span>
             </legend>
             <div :class="$options.name+'--body'">

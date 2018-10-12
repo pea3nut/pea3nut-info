@@ -37,8 +37,8 @@
 import Vuex from 'vuex';
 import Router from './config/router.js';
 import MainModules from '@/components/main-modules'
-import {debounce,getElementPosition} from 'pea-scripts/dist/function.browser.js';
-import MoveTo from 'moveto';
+import {debounce} from 'pea-scripts/dist/function.browser.js';
+import {enable as enablePeaFocus} from "@/assets/js/pea-focus";
 
 export default {
     name :'app',
@@ -67,22 +67,7 @@ export default {
         }));
     },
     mounted(){
-        window.addEventListener('hashchange',function _self(){
-            let hash = decodeURIComponent(location.hash.substr(1));
-            if(
-                hash
-                && (document.getElementById(hash) === null)
-                && (document.getElementsByName(hash).length === 0)
-            ){
-                var elt = Array.from(
-                    document.querySelectorAll(`[data-pea-focus]`)
-                ).find(elt => elt.dataset.peaFocus === hash);
-                if(!elt) return;
-                elt.dispatchEvent(new Event('focus'));
-                (new MoveTo()).move(elt);
-            };
-            return _self;
-        }());
+        enablePeaFocus();
     },
 }
 </script>
