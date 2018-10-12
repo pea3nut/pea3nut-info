@@ -1,49 +1,41 @@
 export var NormalRadarInfo =[
     {
-        "label":"独立",
-        "value":115
+        "label":"自我完整",
+        "value":135
     },{
-        "label":"幽默感",
-        "value":70
+        "label":"攻击性",
+        "value":90
     },{
-        "label":"同理心",
+        "label":"廉价感",
         "value":75
     },{
-        "label":"直率",
-        "value":70
+        "label":"幸福感",
+        "value":30
     },{
         "label":"理性",
-        "value":120
+        "value":125
     },{
-        "label":"执着",
-        "value":85
+        "label":"自敬感",
+        "value":115
     }
 ];
 export var JobRadarInfo =[
     {
-        "label":"学习能力",
-        "max":120,
-        "value":95
+        "label":"D",
+        "max":25,
+        "value":19
     },{
-        "label":"感染力",
-        "max":120,
-        "value":80
+        "label":"I",
+        "max":25,
+        "value":3
     },{
-        "label":"执行力",
-        "max":120,
-        "value":85
+        "label":"S",
+        "max":25,
+        "value":3
     },{
-        "label":"执着",
-        "max":120,
-        "value":80
-    },{
-        "label":"抗挫力",
-        "max":120,
-        "value":75
-    },{
-        "label":"责任感",
-        "max":120,
-        "value":85
+        "label":"C",
+        "max":25,
+        "value":15
     }
 ];
 export var SkillRadarInfo =[

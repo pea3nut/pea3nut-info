@@ -3,7 +3,8 @@
         <article-header title="个人简历" :description="headerDescription" />
         <profile-card :information="cardInfo">
             <radar-img
-                    :radar-value="JobRadarInfo"
+                title="Dominance (D), Influence (I), Steadiness (S), and Conscientiousness (C)."
+                :radar-value="JobRadarInfo"
             ></radar-img>
         </profile-card>
         <block-collapsible lang="md" title="求职意向">
@@ -13,7 +14,7 @@
         </block-collapsible>
         <block-collapsible lang="md" title="技术剖面" class="skill-profile">
 
-            计算机-网络工程专业，自2014年6月开始独立自学Web开发技术。技术狂人，**GitHub 300+ Star**达成！大学期间读完超过10本技术书籍！
+            计算机-网络工程专业，自2014年6月开始独立自学Web开发技术。技术狂人，[开源项目](http://pxer.pea3nut.org/)日均PV 2000+，[GitHub](https://github.com/pea3nut/pxer) 300+ Star**达成！大学期间读完超过10本技术书籍！
 
             <radar-img :radar-value="SkillRadarInfo"></radar-img>
 
@@ -38,7 +39,7 @@
             <block-justify-row lang="md" title="百度">
                 2018.3 - 2018.6，Web前端（实习）
 
-                2018.7至今，Web前端
+                2018.7 - 至今，Web前端
 
                 ---
 

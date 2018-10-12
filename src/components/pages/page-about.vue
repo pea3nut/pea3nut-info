@@ -8,6 +8,7 @@
 
 
             - 关于本页面
+            - 站点额外功能
             - 关于本站点
             - 网站元素构成
                 - 原创组件
@@ -16,7 +17,20 @@
             - 致谢
             - 版权说明
 
-            > Note: 现在本站点还在beta测试中，有许多地方仍未完善。如有不妥之处，欢迎批评指正，花生会将你添加到致谢名单并添加友情链接 :)
+            > Note: 现在本站点还在 gamma 测试中，有许多地方仍未完善。如有不妥之处，欢迎批评指正，花生会将你添加到致谢名单并添加友情链接 :)
+
+            <h3 v-pea-focus="'站点额外功能'">站点额外功能</h3>
+
+            网站各个标签具有不同的URL：
+
+            - 日常版：`{{rootUrl}}/normal`
+            - 求职简历：`{{rootUrl}}/job`
+            - 二次元：`{{rootUrl}}/acg`
+            - 关于：`{{rootUrl}}/about`
+
+            部分组件中的标题可以通过 URL Hash 所引用，被引用的组件会处于焦点状态。如在浏览器中直接进入`{{rootUrl}}/acg#花生的节日`会跳到“二次元”标签，并滚动至“花生的节日”章节，并展开该组件。
+
+            当鼠标处于“可被索引的标题”上时，会有 小手符号<i class="fa fa-hand-pointer-o" aria-hidden="true"></i> 提示，点击会改变 URL。试着点击上边“站点额外功能”标题，然后观察URL变化。
 
             ### 关于本站点
 
@@ -171,6 +185,9 @@
 
 <script>
 export default {
+    data(){return {
+        rootUrl: location.origin,
+    }},
     extends :require('@/components/abstract/page.vue'),
     name :'page-about',
 };

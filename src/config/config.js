@@ -2,9 +2,9 @@
 /* auto generate */
 
 export const DevelopMode =false;
-export const LastUpdateTime =1530432501226;
+export const LastUpdateTime =1539345734353;
 export const FragmentNormal =[
-    '就是因为无法认同镜中的自己才会自取灭亡',
+    '就是因为无法认同镜中的自己才会自取灭亡——《白雪公主》',
     '想知道更多……',
     '趁一切晚了之前',
     '因为不想徒增遗憾',
@@ -17,6 +17,7 @@ export const FragmentNormal =[
     '没有来电，没有邮件，电量也没剩多少了，我讨厌这样的手机',
     '若能以言语以言喻',
     '人生处处皆修行',
+    '路途越远越有努力的价值',
 ];
 export const Fragment =[
     'pea3nut is here, always.',
