@@ -337,6 +337,9 @@ export default {
                 text:'共青团员',
                 print:false,
             },{
+                label:'微信',
+                text:'huasheng_pea',
+            },{
                 label:'E-mail',
                 text:'pea3nut[at]qq.com',
             },{

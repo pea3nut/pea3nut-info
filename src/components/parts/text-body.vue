@@ -229,7 +229,7 @@ export default {
         padding:0.2em 0 0.2em 0.4em;
         p{
             text-indent:0;
-            margin: 0.2em 0 0.2em 0;
+            margin: 0.2em 0 0.6em 0;
             &.markdown-render--quote__-- ,.markdown-render--quote__--{
                 text-align: right;
             }

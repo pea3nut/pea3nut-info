@@ -67,22 +67,28 @@ export var SkillRadarInfo =[
 ];
 export var AcgRadarInfo =[
     {
-        "label":"黑化",
-        "value":139
+        "label":"生命",
+        "value":61,
+        "max":100,
     },{
-        "label":"傲娇",
-        "value":93
+        "label":"爱",
+        "value":23,
+        "max":100,
     },{
-        "label":"独行",
-        "value":120
-    },{
-        "label":"装傻",
-        "value":85
-    },{
-        "label":"吐槽",
-        "value":70
+        "label":"恐惧",
+        "value":72,
+        "max":100,
     },{
         "label":"理性",
-        "value":149
+        "value":85,
+        "max":100,
+    },{
+        "label":"疼痛",
+        "value":72,
+        "max":100,
+    },{
+        "label":"期望",
+        "value":10,
+        "max":100,
     }
 ];

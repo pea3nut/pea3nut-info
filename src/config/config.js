@@ -1,10 +1,10 @@
 
 /* auto generate */
 
-export const DevelopMode =false;
-export const LastUpdateTime =1539345734353;
+export const DevelopMode =true;
+export const LastUpdateTime =1541686142435;
 export const FragmentNormal =[
-    '就是因为无法认同镜中的自己才会自取灭亡——《白雪公主》',
+    '就是因为无法认同镜中的自己才会自取灭亡',
     '想知道更多……',
     '趁一切晚了之前',
     '因为不想徒增遗憾',

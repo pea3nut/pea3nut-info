@@ -57,6 +57,10 @@ export default {
             var dom =null;
             text =this.renderHook(text);
 
+
+            ~text.indexOf('少女A曾经有一个妹妹') && console.log(text);
+
+
             dom =this.parseHTML(Marked(text));
 
             // add target="_blank" to <a> tab which outer link
@@ -128,7 +132,14 @@ export default {
             }
             // fix quote mark ">" encode to &gt
             for(let i=0 ;i<lines.length ;i++){
-                lines[i] =lines[i].replace(/^\&gt; / ,'> ');
+                lines[i] =lines[i].replace(/^\&gt; ?/ ,'> ');
+
+                // quote multiple level
+                let newStr = lines[i].replace(/(> )*\&gt; / ,'$1 > ');
+                while(newStr !== lines[i]){
+                    lines[i] = newStr;
+                    newStr = lines[i].replace(/(> )*\&gt; / ,'$1 > ');
+                }
             };
 
 
