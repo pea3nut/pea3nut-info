@@ -1,8 +1,8 @@
 
 /* auto generate */
 
-export const DevelopMode =true;
-export const LastUpdateTime =1541686142435;
+export const DevelopMode =false;
+export const LastUpdateTime =1541777404289;
 export const FragmentNormal =[
     '就是因为无法认同镜中的自己才会自取灭亡',
     '想知道更多……',
