@@ -29,19 +29,6 @@ function onHashchange(){
 function onEltClick(event) {
     setHashWithoutScroll(event.currentTarget.dataset.peaFocus);
 }
-function bindClickForBody() {
-    document.addEventListener('click', function (event) {
-        let elt = event.target;
-        while(elt){
-            if(elt.dataset.peaFocus) break;
-            elt = elt.parentNode;
-        }
-        if(!elt) return;
-
-
-        event.target
-    });
-}
 
 export function enable(){
     onHashchange();

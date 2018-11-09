@@ -56,11 +56,6 @@ export default {
         renderMarkdown(text){
             var dom =null;
             text =this.renderHook(text);
-
-
-            ~text.indexOf('少女A曾经有一个妹妹') && console.log(text);
-
-
             dom =this.parseHTML(Marked(text));
 
             // add target="_blank" to <a> tab which outer link
