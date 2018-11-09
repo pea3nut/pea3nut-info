@@ -14,7 +14,7 @@
         </block-collapsible>
         <block-collapsible lang="md" title="技术剖面" class="skill-profile">
 
-            计算机-网络工程专业，自2014年6月开始独立自学Web开发技术。技术狂人，[开源项目](http://pxer.pea3nut.org/)日均PV 2000+，[GitHub](https://github.com/pea3nut/pxer) 300+ Star**达成！大学期间读完超过10本技术书籍！
+            计算机-网络工程专业，自2014年6月开始独立自学Web开发技术。技术狂人，[开源项目](http://pxer.pea3nut.org/)日均PV 2000+，[GitHub](https://github.com/pea3nut/pxer) 300+ Star达成！大学期间读完超过10本技术书籍！
 
             <radar-img :radar-value="SkillRadarInfo"></radar-img>
 
@@ -32,6 +32,7 @@
 
             - 个人博客：[blog.pea3nut.com](http://blog.pea3nut.com/)
             - Github：[github.com/pea3nut](https://github.com/pea3nut/)
+            - Github/FoXZilla：[github.com/FoXZilla](https://github.com/FoXZilla/)
 
             更详细的开发技术介绍可以在下方“技能”专栏找到
         </block-collapsible>
