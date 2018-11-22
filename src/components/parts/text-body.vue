@@ -205,6 +205,9 @@ export default {
     &.text-body__mobile p{
         text-indent:1em;
     }
+    &.text-body__mobile blockquote p{
+        text-indent:0;
+    }
     ul{
         padding-left:2.5em;
         li{
