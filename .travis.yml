@@ -16,6 +16,4 @@ before_install:
 
 script:
   - npm run build
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker build -t pea3nut/pea3nut-info:latest .
-  - docker pubsh pea3nut/pea3nut-info:latest
+  - bash publish-image.sh
