@@ -15,7 +15,7 @@ export const jobResume =  [{ // Events data
     date: '2015-6',
     title: '创业，注册公司',
     description: '共有4位小伙伴参与，计划开发一款类似于钉钉的办公软件',
-    endDate :new Date('2017-6-19'),
+    endDate :'2017-6-19',
     endText: '公司破产清算'
 },{
     date: '2017-4-5',

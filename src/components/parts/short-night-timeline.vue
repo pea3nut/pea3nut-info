@@ -1,5 +1,5 @@
 <template>
-    <div class="short-night-timeline">
+    <div class="short-night-timeline" v-if="!mobileMode">
         <text-body>
             <h3 v-pea-focus="title">{{ title }}</h3>
             <blockquote v-show="radio < iphoneSeMaxRadio">
@@ -20,6 +20,7 @@
 import { draw, Timeline, Engine } from '@foxzilla/rules';
 import {debounce} from 'pea-scripts/dist/function.browser.js';
 import TextBody from './text-body';
+import chrono from 'chrono-node';
 
 export default {
     props: ['data', 'title'],
@@ -33,6 +34,17 @@ export default {
         $timeline: null,
         radio: 1,
     }},
+    computed: {
+        formattedData() {
+            return this.data.map(event => {
+                console.log(event.date, String(event.endDate));
+                return Object.assign({}, event, {
+                    date: chrono.parseDate(event.date).toISOString(),
+                    endDate: event.endDate && chrono.parseDate(String(event.endDate)).toISOString(),
+                });
+            });
+        },
+    },
     methods: {
         layout() {
             const container = this.$refs.timelineContainer;
@@ -58,7 +70,7 @@ export default {
         },
     },
     async mounted() {
-        this.$timeline = await draw(this.$refs.app, this.data);
+        this.$timeline = await draw(this.$refs.app, this.formattedData);
 
         window.addEventListener('resize',debounce({
             fn: this.layout,
