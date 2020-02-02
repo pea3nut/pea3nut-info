@@ -6,6 +6,7 @@ import * as RadarInfo from '@/config/radar-config.js';
 import {countClassData,useClassData} from '@/assets/js/function.js';
 export default {
     components :{
+        'short-night-timeline':require('@/components/parts/short-night-timeline.vue'),
         'article-header':require('@/components/parts/article-header.vue'),
         'profile-card':require('@/components/parts/profile-card.vue'),
         'radar-img':require('@/components/parts/radar-img.vue'),
@@ -52,6 +53,9 @@ export default {
         &>.block-justify{
             margin-bottom:60px;
         }
+        &>.short-night-timeline{
+            margin-bottom:40px;
+        }
     }
     &.page-view__mobile{
         padding:15px;
@@ -65,6 +69,9 @@ export default {
             margin-bottom:40px;
         }
         &>.block-justify{
+            margin-bottom:20px;
+        }
+        &>.short-night-timeline{
             margin-bottom:20px;
         }
     }

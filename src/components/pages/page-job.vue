@@ -12,6 +12,7 @@
 
             熟练掌握JavaScript及Vue生态使用，拥有PHP、Node.js后台开发经验
         </block-collapsible>
+        <short-night-timeline :data="jobResume" title="职业履历" />
         <block-collapsible lang="md" title="技术剖面" class="skill-profile">
 
             计算机-网络工程专业，自2014年6月开始独立自学Web开发技术。技术狂人，[开源项目](http://pxer.pea3nut.org/)日均PV 2000+，[GitHub](https://github.com/pea3nut/pxer) 300+ Star达成！大学期间读完超过10本技术书籍！
@@ -303,10 +304,13 @@
 
 <script>
 import {formatDate} from 'pea-scripts/dist/function.browser.js';
+import {jobResume} from '../../config/timeline';
+
 export default {
     extends :require('@/components/abstract/page.vue'),
     name :'page-job',
     data(){return{
+        jobResume,
     }},
     computed:{
         cardInfo(){

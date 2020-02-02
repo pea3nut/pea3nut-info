@@ -10,6 +10,7 @@
     "build": "node build/pea-build.js && node build/build.js"
   },
   "dependencies": {
+    "@foxzilla/rules": "^1.0.0-beta.3",
     "bootstrap": "4.0.0-alpha.6",
     "echarts": "^3.7.1",
     "font-awesome": "^4.7.0",

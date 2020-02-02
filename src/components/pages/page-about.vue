@@ -55,6 +55,7 @@
             - 雷达图绘制使用：[Echarts][5]
             - Markdown使用：[Marked][6]二次包装进行渲染
             - 全局CSS使用：[BootStrap.alpha-6][7]
+            - 时间线绘制使用：[Short-Night: Rules][8]
 
 
             感谢上述开源库的贡献团队！！
@@ -66,12 +67,31 @@
             [5]: http://echarts.baidu.com/
             [6]: https://github.com/chjj/marked
             [7]: http://getbootstrap.com/
+            [8]: https://github.com/FoXZilla/Rules
 
             #### 网站组件
 
+            #### short-night-timeline
+
+            按照时间精准绘制时间线，并可自动排列解决重叠。使用 [Short-Night: Rules](https://github.com/FoXZilla/Rules) 绘制
+
+            <div id="timeline-example"></div>
+
+        </text-body>
+            <short-night-timeline
+                :data="[{
+                    date: '2010-3-9',
+                    endDate: '2012-3-9',
+                    title: 'Event A',
+                }, {
+                    date: '2011-3-9',
+                    title: 'Event B',
+                }]"
+            />
+        <text-body lang="md">
             ##### radar-img
 
-            雷达图组件，使用[Echarts][5]二次包装
+            雷达图组件，使用[Echarts](http://echarts.baidu.com/)二次包装
         </text-body>
 
             <radar-img
