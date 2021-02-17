@@ -19,8 +19,9 @@ export default new Router({
         path :'/normal' ,
         component :require('@/components/pages/page-normal.vue'),
     },{
-        path :'/acg' ,
+        path :'/sss' ,
         component :require('@/components/pages/page-acg.vue'),
+        alias: '/acg'
     },{
         path :'/job' ,
         component :require('@/components/pages/page-job.vue'),

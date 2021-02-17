@@ -5,16 +5,16 @@
             <container-with-tabs
                 :tabs="[{
                     name :'page-normal',
-                    text :'日常版',
+                    text :'三次元',
                     to   :'/normal'
                 },{
                     name :'page-job',
-                    text :'求职简历',
+                    text :'职业技能',
                     to   :'/job'
                 },{
                     name :'page-acg',
                     text :'二次元',
-                    to   :'/acg'
+                    to   :'/sss'
                 },{
                     name :'page-about',
                     text :'关于',

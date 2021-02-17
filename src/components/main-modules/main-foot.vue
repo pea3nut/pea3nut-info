@@ -3,7 +3,7 @@
         <p>
             Copyright &copy; 2017
             <a href="http://pea3nut.info/" target="_blank">pea3nut.info</a>
-            by <a href="http://pea3nut.com/" target="_blank">花生PeA</a>.
+            by <a href="http://pea3nut.com/" target="_blank">花生Peadar</a>.
         </p>
         <p>
             <a href="http://www.miitbeian.gov.cn/" target="_blank">鲁ICP备15006545号-2</a>.

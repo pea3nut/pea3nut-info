@@ -1,9 +1,12 @@
 <template>
     <div v-random-scope="2.5">
-        <div :class="$options.name+'--img'">
+        <div v-if="imgSrc" :class="$options.name+'--img'">
             <img :class="$options.name+'--img--photo-like img-fluid'" :src="imgSrc" alt="example" v-random-scope="10" />
         </div>
-        <text-body :class="$options.name+'--body'" :lang="lang">
+        <text-body :class="{
+            [$options.name+'--body']: true,
+            [$options.name+'--body__withOutImage']: !imgSrc
+        }" :lang="lang">
             <slot></slot>
         </text-body>
     </div>
@@ -53,6 +56,10 @@ export default{
         color: #282b2d;
         font-family: $peaHandwrittenFont;
         font-size: 1.2em;
+
+        &__withOutImage {
+            width: 80%;
+        }
     }
     &.block-decal__mobile{
         flex-wrap: wrap;

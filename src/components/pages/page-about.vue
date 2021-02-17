@@ -21,9 +21,9 @@
 
             网站各个标签具有不同的URL：
 
-            - 日常版：`{{rootUrl}}/normal`
-            - 求职简历：`{{rootUrl}}/job`
-            - 二次元：`{{rootUrl}}/acg`
+            - 三次元：`{{rootUrl}}/normal`
+            - 职业技能：`{{rootUrl}}/job`
+            - 二次元：`{{rootUrl}}/sss`
             - 关于：`{{rootUrl}}/about`
 
             部分组件中的标题可以通过 URL Hash 所引用，被引用的组件会处于焦点状态。如在浏览器中直接进入`{{rootUrl}}/acg#花生的节日`会跳到“二次元”标签，并滚动至“花生的节日”章节，并展开该组件。

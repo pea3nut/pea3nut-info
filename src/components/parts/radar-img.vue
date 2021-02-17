@@ -41,7 +41,7 @@ export default{
             };
             var indicator=[];
             var seriesValue=[];
-            for(let {label ,value ,max=150} of this.radarValue){
+            for(let {label ,value ,max=110} of this.radarValue){
                 seriesValue.push(value);
                 indicator.push({
                     text:label,
