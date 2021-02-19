@@ -39,7 +39,7 @@ export const FragmentAcg =[
 ];
 export const Info ={
     now_state      :'工作ing',
-    now_state_job  :'百度/Web前端开发',
+    now_state_job  :'百度 Web前端开发',
     present_address:'北京市',
     marriage       :'单身',
 };
