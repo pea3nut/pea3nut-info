@@ -8,13 +8,13 @@
                     text :'三次元',
                     to   :'/normal'
                 },{
-                    name :'page-job',
-                    text :'职业技能',
-                    to   :'/job'
-                },{
                     name :'page-acg',
                     text :'二次元',
                     to   :'/sss'
+                },{
+                    name :'page-job',
+                    text :'职业技能',
+                    to   :'/job'
                 },{
                     name :'page-about',
                     text :'关于',

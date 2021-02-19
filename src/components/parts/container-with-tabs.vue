@@ -3,7 +3,7 @@
         <header>
             <nav>
                 <router-link
-                    v-for="(tab,index) in renderTabs"
+                    v-for="(tab,index) in tabs"
                     :key="tab.name"
                     :to="tab.to"
                     :style="{zIndex:mobileMode?'':`${9-index}00`}"
@@ -13,7 +13,7 @@
                 ></router-link>
             </nav>
         </header>
-        <article :style="{minHeight:mobileMode?false:renderTabs.length*150+'px'}">
+        <article :style="{minHeight:mobileMode?false:tabs.length*150+'px'}">
             <div class="container-with-tabs--slot">
                 <slot></slot>
             </div>
@@ -29,15 +29,6 @@ export default {
         active:String,
     },
     computed:{
-        renderTabs(){
-            var index =this.tabs.findIndex(tab=>tab.name===this.active);
-            var tabs =Array.from(this.tabs);
-
-            if(!~index ||this.mobileMode)return tabs;
-            tabs.unshift(this.tabs[index]);
-            return [...new Set(tabs)];
-
-        },
     },
     data(){return{
     }},
@@ -95,8 +86,9 @@ export default {
         header{
             nav{
                 position: absolute;
-                top:0;
-                left:-43px;
+                top:-5px;
+                left:-55px;
+                width:56px;
                 display: flex;
                 flex-direction:column;
                 a{
@@ -113,15 +105,14 @@ export default {
                     color:#fff;
                     text-decoration: none;
                     display: block;
-                    padding:19px 0 45px 11px;
-                    margin-top:-32px;
-                    width:56px;
+                    padding: 20px 0 45px 23px;
+                    margin-top:-30px;
+                    width:100%;
                     background: url('/static/img/tabs/tabs.png') no-repeat;
                     background-size: 100% 100%;
                     border-bottom-left-radius: 80px 110px;
                     writing-mode:vertical-lr;
-                    padding-top: 20px;
-                    padding-bottom: 50px;
+                    font-family: $peaLabelFont;
                 }
             }
         }
