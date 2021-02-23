@@ -11,6 +11,9 @@
 
             若你不想过多的了解花生，请**不要**阅读此页面。返回[三次元标签页](/normal)
         </block-collapsible>
+        <block-decal img-src="/static/img/follow.jpg">
+            你确定要看花朵下面的根须吗？
+        </block-decal>
         <article-header title="花生Peadarの的角色设定" :description="getRandomItem(Fragment.concat(FragmentAcg))" />
         <profile-card :information="cardInfo">
             <radar-img
@@ -161,7 +164,7 @@
 
             当有人追随黑暗来到一个偏僻的角落，推开一扇空教室的门，或是顺着楼梯爬上天台，那么就有可能发现在黑夜中“翩翩起舞”的我
 
-            ![](/static/img/in-school-ceiling-night.jpg)
+            ![](/static/img/in-school-ceiling-night.png)
         </block-collapsible>
         <block-collapsible title="不谙世事与冷血" lang="md" folded>
             由于大部分时间都独来独往，加上社交少，不谙世事也是难免的事情

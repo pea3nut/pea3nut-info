@@ -177,6 +177,18 @@
 
             - [PSD文件下载](/static/img/tabs/tabs.psd)
 
+            #### 二次元标签页警告插画
+
+            <img src="/static/img/follow.jpg" class="page-about--photo-like">
+
+            <br />
+
+            由我委托画师 [uMnshaw](https://www.mihuashi.com/users/uMnshaw) 所画，授权协议为 [MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/)：著名来源可随意商用、二次修改等。具体事项请参考 [MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/) 协议
+
+            - [创作画师：uMnshaw](https://www.mihuashi.com/users/uMnshaw)
+            - [PSD文件下载](/static/img/follow.7z)
+
+
             ### 致谢
 
             站点“花生PeAの个人资料”自2017.1.27开发以来，上线经过6个alpha版本测试、7个beta版本测试。十分感谢帮忙测试的人员，让整个站点变的更加友好，非常感谢！！

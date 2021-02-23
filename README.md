@@ -1,6 +1,6 @@
 # 花生Peadar的个人资料 | pea3nut.info
 
-本仓库是网站 pea3nut.info 的源码。
+本仓库是网站 pea3nut.info 的源码 <img src="https://travis-ci.org/pea3nut/pea3nut-info.svg?branch=master" />
 
 # 项目部署
 
