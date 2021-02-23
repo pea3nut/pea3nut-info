@@ -38,7 +38,7 @@ export default{
     border:2px dotted #f5e4cc;
     box-shadow: 2px 2px 10px #303030;
     border-radius: 5px;
-    padding-top:3rem;
+    padding-top:2rem;
     padding-bottom:3rem;
     display: flex;
     align-items:center;
@@ -64,7 +64,7 @@ export default{
     &.block-decal__mobile{
         flex-wrap: wrap;
         .block-decal--img{
-            width: 85%;
+            width: 90%;
             .block-decal--img--photo-like{
                 @extend .pea-photo-like__mobile;
             }
@@ -72,7 +72,7 @@ export default{
         .block-decal--body{
             width: 100%;
             margin-top:2em;
-            padding: 15px;
+            padding: 5px;
             font-size: 1.1em;
         }
     }

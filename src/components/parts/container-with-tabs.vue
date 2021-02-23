@@ -110,7 +110,6 @@ export default {
                     width:100%;
                     background: url('/static/img/tabs/tabs.png') no-repeat;
                     background-size: 100% 100%;
-                    border-bottom-left-radius: 80px 110px;
                     writing-mode:vertical-lr;
                     font-family: $peaLabelFont;
                 }

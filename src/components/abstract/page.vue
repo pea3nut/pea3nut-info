@@ -63,7 +63,7 @@ export default {
             margin-bottom :20px;
         }
         &>.block-decal{
-            margin: 0 15px 40px;
+            margin: 0 5px 40px;
         }
         &>.block-collapsible{
             margin-bottom:40px;
