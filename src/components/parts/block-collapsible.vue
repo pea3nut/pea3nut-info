@@ -110,6 +110,7 @@ export default{
         .text-body{
             padding:.3em .6em;
         }
+        width: 100%;
         border:1px solid #1f2021;
     }
     @media screen{

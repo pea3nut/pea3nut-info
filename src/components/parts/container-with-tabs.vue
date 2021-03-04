@@ -86,7 +86,7 @@ export default {
         header{
             nav{
                 position: absolute;
-                top:-5px;
+                top:-4.5px;
                 left:-55px;
                 width:56px;
                 display: flex;

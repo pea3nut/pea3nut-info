@@ -23,16 +23,21 @@ export default{
 .block-justify-row .block-justify-row--text p{
     text-indent:0 !important;
 }
+.block-justify-row .block-justify-row--text img{
+    margin-left: 0 !important;
+    border: 1px dashed #ccc;
+}
 </style>
 <style scoped="scoped" lang="scss">
 @import "~pea-styles/scss/variable.scss";
 .block-justify-row{
     display: flex;
-    width:90%;
+    width:100%;
     .block-justify-row--label{
+        $fontSize: 1.5rem;
         text-align: right;
-        font-size: 2rem;
-        width:8rem;
+        font-size: $fontSize;
+        width: ($fontSize * 7 + 1rem);
         font-family: $peaLabelFont;
         color: #8d8e8f;
         margin-top:1rem;
@@ -44,14 +49,16 @@ export default{
     .block-justify-row--text{
         flex-grow:1;
         border-left:2px solid #373a3c;
-        padding:1em 3em 2em 1.5em;
+        padding:1em 5em 2em 1.5em;
         margin-left:1.5em;
     }
     &.block-justify-row__mobile{
         width:100%;
         .block-justify-row--label{
             width:4.2rem;
-            padding-left:0.2rem;
+            padding-right:0.4rem;
+            text-align: left;
+            writing-mode: tb-rl;
         }
         .block-justify-row--text{
             margin-left:0.4em;
