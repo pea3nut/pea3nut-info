@@ -21,21 +21,17 @@ export var NormalRadarInfo = [
 ];
 export var JobRadarInfo = [
     {
-        "label": "Dominance",
-        "max": 25,
-        "value": 19
+        "label": "开发",
+        "value": 95
     }, {
-        "label": "I",
-        "max": 25,
-        "value": 3
+        "label": "系统\n设计",
+        "value": 90
     }, {
-        "label": "Steadiness",
-        "max": 25,
-        "value": 3
+        "label": "无中\n生有",
+        "value": 80
     }, {
-        "label": "C",
-        "max": 25,
-        "value": 15
+        "label": "团队\n建设",
+        "value": 40
     }
 ];
 export var SkillRadarInfo = [
