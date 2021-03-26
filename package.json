@@ -5,9 +5,10 @@
   "author": "pea3nut",
   "private": true,
   "scripts": {
-    "dev": "node build/pea-build.js --dev && node build/dev-server.js",
+    "dev": "npm run build:config -- --dev && node build/dev-server.js",
     "server": "http-server dist/",
-    "build": "node build/pea-build.js && node build/build.js"
+    "build:config": "node build/pea-build.js",
+    "build": "npm run build:config && node build/build.js"
   },
   "dependencies": {
     "@foxzilla/rules": "^1.0.0-beta.3",
