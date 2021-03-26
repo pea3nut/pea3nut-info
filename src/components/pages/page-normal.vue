@@ -211,7 +211,7 @@ export default {
                 text:'huasheng_pea',
             },{
               label:'工作于',
-              text:'百度/程序员',
+              text: `${this.Info['working_for']}/程序员`,
             },{
               label:'现状态',
               text:this.Info['now_state'],
