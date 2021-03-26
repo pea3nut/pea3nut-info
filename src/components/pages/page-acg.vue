@@ -223,7 +223,7 @@ export default{
                 text:'花生Peadar',
             },{
                 label:'现居地',
-                text:'北京',
+                text:this.Info['present_address'],
             },{
                 label:'社会身份',
                 text: '程序员',

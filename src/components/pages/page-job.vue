@@ -55,6 +55,9 @@
             - 知乎：[zhihu.com](https://www.zhihu.com/people/liu-bo-yuan-75-28)
         </block-collapsible>
         <block-justify title="工作">
+            <block-justify-row lang="md" title="Tik Tok">
+                2018.3 - Now，Web前端开发工程师 in 新加坡
+            </block-justify-row>
             <block-justify-row lang="md" title="百度">
                 2018.3 - 2021.3，Web前端开发工程师
 
@@ -196,7 +199,7 @@ export default {
                 text:`${this.getPeA3nutAge()}（1995.5出生）`,
             },{
                 label:'出生地/现居地',
-                text:'黑龙江/北京',
+                text:`黑龙江/${this.Info['present_address']}`,
                 print:false,
             },{
                 label:'毕业院校',
@@ -224,7 +227,7 @@ export default {
                 print:false,
             },{
                 label:'现状态',
-                text:this.Info['now_state_job'],
+                text: `${this.Info['working_for']}/${this.Info['job_title']}`,
                 print:false,
             }];
             return reArr;
