@@ -56,7 +56,7 @@
         </block-collapsible>
         <block-justify title="工作">
             <block-justify-row lang="md" title="Tik Tok">
-                2018.3 - Now，Web前端开发工程师 in 新加坡
+                2021.3 - Now，Web前端开发工程师 in 新加坡
             </block-justify-row>
             <block-justify-row lang="md" title="百度">
                 2018.3 - 2021.3，Web前端开发工程师
