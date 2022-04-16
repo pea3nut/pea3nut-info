@@ -146,7 +146,7 @@
 
             ##### 背景图
 
-            <img src="//public.pea3nut.org/img/uchu01.bg.jpg" class="page-about--photo-like">
+            <img src="//pea.nutjs.com/mine/image/uchu01.jpg" class="page-about--photo-like">
 
             网站背景使用[pixiv.net][8]背景图，原链接如下
 
