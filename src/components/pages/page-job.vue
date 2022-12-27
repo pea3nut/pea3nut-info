@@ -223,7 +223,7 @@ export default {
                 text:'pea3nut[at]qq.com',
             },{
                 label:'期望地区',
-                text:'互联网一城市',
+                text:'英语国家',
                 print:false,
             },{
                 label:'现状态',
