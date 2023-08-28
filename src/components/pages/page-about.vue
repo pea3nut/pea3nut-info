@@ -146,14 +146,14 @@
 
             ##### 背景图
 
-            <img src="//pea.nutjs.com/mine/image/uchu01.jpg" class="page-about--photo-like">
+            <img src="/static/img/uchu01.jpg" class="page-about--photo-like">
 
             网站背景使用[pixiv.net][8]背景图，原链接如下
 
                 http://source.pixiv.net/common/images/bg/uchu01.jpg
 
 
-            <img src="//public.pea3nut.org/img/layer01.bg.gif" class="page-about--photo-like">
+            <img src="/static/img/layer01.bg.gif" class="page-about--photo-like">
 
             部分背景使用[pixiv.net][8]背景图，原链接如下
 
@@ -231,7 +231,7 @@ export default {
     }
     .text-body .page-about--photo-like{
         margin: 0;
-        background: url("//public.pea3nut.org/img/layer01.bg.gif");
+        background: url("/static/img/layer01.bg.gif");
     }
     &.page-about__desktop{
         .article-header{
