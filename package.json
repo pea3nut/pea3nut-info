@@ -13,7 +13,7 @@
   "dependencies": {
     "@foxzilla/rules": "^1.0.0-beta.3",
     "bootstrap": "4.0.0-alpha.6",
-    "chrono-node": "^1.4.2",
+    "chrono-node": "^2.2.4",
     "echarts": "^3.7.1",
     "font-awesome": "^4.7.0",
     "marked": "^0.7.0",
