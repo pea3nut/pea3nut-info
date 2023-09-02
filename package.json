@@ -16,7 +16,7 @@
     "chrono-node": "^1.4.2",
     "echarts": "^3.7.1",
     "font-awesome": "^4.7.0",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "moveto": "^1.7.1",
     "pea-scripts": "0.0.3",
     "vue": "^2.3.3",
