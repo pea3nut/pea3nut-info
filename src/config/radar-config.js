@@ -21,38 +21,38 @@ export var NormalRadarInfo = [
 ];
 export var JobRadarInfo = [
     {
-        "label": "开发",
-        "value": 95
-    }, {
-        "label": "系统\n设计",
-        "value": 90
-    }, {
-        "label": "无中\n生有",
+        "label": "GPT\n落地",
         "value": 80
     }, {
-        "label": "团队\n建设",
+        "label": "开\n发",
+        "value": 95
+    }, {
+        "label": "工程化",
+        "value": 90
+    }, {
+        "label": "团队\n运营",
         "value": 40
     }
 ];
 export var SkillRadarInfo = [
     {
-        "label": "Type-\nScript",
+        "label": "全栈",
         "value": 90
     }, {
-        "label": "Java-\nScript",
+        "label": "前端",
         "value": 95
     }, {
-        "label": "CSS",
-        "value": 60
-    }, {
-        "label": "DOM",
-        "value": 65
-    }, {
         "label": "Vue",
-        "value": 85
+        "value": 70
     }, {
-        "label": "Node.js",
-        "value": 85
+        "label": "GPT PE",
+        "value": 90
+    }, {
+        "label": "React",
+        "value": 75
+    }, {
+        "label": "算法",
+        "value": 65
     }
 ];
 export var AcgRadarInfo = [

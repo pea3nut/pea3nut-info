@@ -6,66 +6,68 @@
                 :radar-value="JobRadarInfo"
             ></radar-img>
         </profile-card>
-        <block-collapsible lang="md" title="期望方向">
-            技术倾向：大型 Web 前端应用设计开发、复杂 JavaScript 应用开发
-
-            业务倾向：技术基础设施开发，或是对人类或互联网有进步作用的业务
-        </block-collapsible>
+        <block-decal img-src="/static/img/my-career.png">
+            曾经在工厂流水线上刷皮鞋、在饭店端盘子。而现在，为了实现梦想而踏上旅程...
+        </block-decal>
 <!--        <short-night-timeline :data="jobResume" title="职业履历" />-->
         <block-collapsible lang="md" title="技术剖面" class="skill-profile">
-            科班出身，前 Mozilla、前百度前端开发，自2014年开始独立自学 Web 开发技术
+            Web前端 & 全栈开发工程师，曾就职于 Mozilla、百度、字节跳动。热爱技术，获[掘金优秀作家](https://juejin.cn/user/3227821867563735/posts)称号，也在 [GitHub](https://github.com/pea3nut) 上获得了 1k 个 Star
 
-            技术狂人，[开源项目](http://pxer.pea3nut.org/)日均PV 1000+，[GitHub](https://github.com/pea3nut/pxer) 700 Star达成；分享达人，掘金3级作家，个人博客文章 100+ 篇；乐于奉献，翻译 MDN 文章，为多个知名开源库贡献过代码
-
-            拥有丰富的大型项目 Owner 经验，喜欢承担开发和系统设计的工作
+            除开发技术外，对于工程化、GPT 落地与实践、业务规划也有非常丰富的经验和知识
 
             ---
 
             <radar-img :radar-value="SkillRadarInfo"></radar-img>
 
-            我可以使用它们来创造前所未有的东西：
+            我是这方面的专家，我拥有大量的实践的成功的经验：
 
-            - JavaScript
-            - TypeScript
-
-            我可以使用它们来十分出色的完成工作：
-
-            - Vue
+            - JavaScript / TypeScript
+            - 全栈开发
             - Node.js
-            - DOM + BOM
+            - Prompt Engineering (GPT)
+            - 项目、团队工程化
+            - GPT 使用及落地
+
+            我非常擅长这些领域，拥有丰富的实践经验：
+
+            - Docker
+            - React / Vue
             - CSS
             - Webpack
-            - Linux
+            - 业务规划
+            - 高并发中间件服务器设计
 
-            我能够使用它们：SASS、Bootstrap、PHP 、 Photoshop、Canvas、HTTP、Docker
-        </block-collapsible>
-        <block-collapsible lang="md" title="相关链接">
-            项目主页：
+            我十分熟悉这些，它们就像是我的老朋友：
 
-            - Pxer 官网：[pxer.pea3nut.org](http://pxer.pea3nut.org/)
-            - Short Night 官网：[shortnight.pea3nut.org](http://shortnight.pea3nut.org/)
-            - 个人站点自动化部署项目首页：[github/pea3nut/pea3nut-hub](https://github.com/pea3nut/pea3nut-hub)
-
-            个人主页：
-
-            - 个人资料：[pea3nut.info](http://pea3nut.info/)
-            - 个人博客：[pea3nut.blog](http://pea3nut.blog/)
-            - Github：[github/pea3nut](https://github.com/pea3nut/)
-            - 掘金：[juejin.im](https://juejin.cn/user/3227821867563735)
-            - 知乎：[zhihu.com](https://www.zhihu.com/people/liu-bo-yuan-75-28)
+            - Linux & Bash
+            - Git
+            - 团队成员培养
+            - 团队流程搭建
+            - 知识分享
+            - 内容审核业务
         </block-collapsible>
         <block-justify title="工作">
-            <block-justify-row lang="md" title="Tik Tok">
-                2021.3 - Now，Web前端开发工程师 in 新加坡
+            <block-justify-row lang="md" title="TikTok">
+                2021.3 - 至今，FE Tech Lead，新加坡
+
+                ---
+
+                - 负责字节内部敏感词管理系统，承接字节内包含 TikTok 的所有海外产品的敏感词业务
+                - 牵头 GPT 项目，为敏感词项目赋能、产出业务方案、GPT 知识分享、团队成员
+                - 与合作方共同完成业务定位、路线规划、阶段拆分、建立业务指标
+                - 负责敏感词前端团队。建立团队工作流、上下游合作流程、理清职责边界、团队成员培养
+                - 负责敏感词管理系统整体技术规划、负责安全和稳定性，建立技术基础设施迎接业务挑战、工程化方案、权限模型等
+
+                > 技术栈：React，Node.js，TypeScript，全栈开发
             </block-justify-row>
             <block-justify-row lang="md" title="百度">
-                2018.3 - 2021.3，Web前端开发工程师
+                2018.3 - 2021.3，Web前端开发工程师，北京
 
                 ---
 
                 SwanSSR 项目负责人 - Node.js
 
-                > SwanSSR 是一个拥有亿级流量的 Node.js 中间件服务器。是 Swan 的中央分发服务器
+                > SwanSSR 是一个拥有**亿级流量**的 Node.js 中间件服务器。是 Swan 的中央分发服务器
 
                 - 针对庞大业务逻辑，设计实现了 Bluebird 服务器框架
                 - 使用 TypeScript 对项目进行渐进式重构
@@ -97,11 +99,30 @@
                 - 使用 WebExtensions 技术（HTML + CSS + JS）开发了 5 个浏览器扩展
             </block-justify-row>
         </block-justify>
+        <block-collapsible lang="md" title="其他活动">
+            - [掘金](https://juejin.cn/user/3227821867563735)优秀作家，投稿屡次登上热榜 TOP 1
+            - [Github](https://github.com/pea3nut/) 累计获得 1k Star
+            - 作为制作人，帮助某个人出道 Vtuber，并在一个月内将流水翻了30倍，达到 2 万元每月
+            - 在[个人博客](http://pea3nut.blog/)中写了 100+ 篇博客
+            - 英语达到 @@[B2](简而言之，达到 B2 水平的英语学习者可以理解和使用相对复杂的语言结构，能够在各种情境中流利、准确地沟通，并能够理解主要思想和细节)@@ 水平
+        </block-collapsible>
         <block-justify title="项目">
             <block-justify-row lang="md" title="">
-                以下所有项目为个人的开源项目，均可在[花生的 Github](https://github.com/pea3nut) 中找到
+                以下所有项目为个人的开源项目，均可在[我的 Github 首页](https://github.com/pea3nut) 中找到
 
                 ---
+            </block-justify-row>
+            <block-justify-row lang="md" title="AI Dict">
+                > Note: 项目仍处于开发中
+
+                基于AI的可对话的超级英语字典~！
+
+                这个项目有2个目标：
+
+                1. 打造一个可对话的超级英语字典网站
+                2. 一行代码也不写，纯粹使用 GPT 来完整整站开发！
+
+                - [项目仓库](https://github.com/FoXZilla/aidict)
             </block-justify-row>
             <block-justify-row lang="md" title="Short Night">
                 > Note: 项目仍处于 alpha 阶段测试中
@@ -130,7 +151,7 @@
             <block-justify-row lang="md" title="pea3nut-hub">
                 使用 Docker 技术管理的 DevOps 项目，提供方便的部署、更新、打包、迁移等功能
 
-                目前本项目托管了所有 花生Peadar 的在线网站项目，包含以下 7 个独立站点：
+                目前本项目托管了所有我的在线网站项目，包含以下 7 个独立站点：
 
                 1. [Pxer 官网 v1](http://v1.pxer.pea3nut.org/)
                 1. [Pxer 官网 v2](http://pxer.pea3nut.org/)
@@ -149,6 +170,15 @@
                 - [项目介绍](/about)
             </block-justify-row>
         </block-justify>
+        <block-collapsible lang="md" title="相关链接">
+            - 个人资料网站：[pea3nut.info](http://pea3nut.info/)
+            - 个人博客：[pea3nut.blog](http://pea3nut.blog/)
+            - Github：[github/pea3nut](https://github.com/pea3nut/)
+            - 所有的线上站点管理：[github/pea3nut/pea3nut-hub](https://github.com/pea3nut/pea3nut-hub)
+            - 掘金：[juejin.im](https://juejin.cn/user/3227821867563735)
+            - Pxer 官网：[pxer.pea3nut.org](http://pxer.pea3nut.org/)
+            - Short Night 官网：[shortnight.pea3nut.org](http://shortnight.pea3nut.org/)
+        </block-collapsible>
         <block-collapsible lang="md" title="校园经历">
             1. 2014年9月考入青岛理工大学网络工程专业
             1. 大一：
@@ -205,7 +235,7 @@ export default {
                 label:'毕业院校',
                 text:'青岛理工大学（2014-2018）',
             },{
-                label:'所学专业',
+                label:'学位',
                 text:'计算机-网络工程（学士）',
             },{
                 label:'婚姻状况',
@@ -222,8 +252,8 @@ export default {
                 label:'E-mail',
                 text:'pea3nut[at]qq.com',
             },{
-                label:'期望地区',
-                text:'英语国家',
+                label:'英语水平',
+                text:'B2，可流利沟通',
                 print:false,
             },{
                 label:'现状态',

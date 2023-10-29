@@ -22,7 +22,7 @@
             网站各个标签具有不同的URL：
 
             - 三次元：`{{rootUrl}}/normal`
-            - 职业技能：`{{rootUrl}}/job`
+            - 工作履历：`{{rootUrl}}/job`
             - 二次元：`{{rootUrl}}/sss`
             - 关于：`{{rootUrl}}/about`
 

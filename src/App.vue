@@ -13,7 +13,7 @@
                     to   :'/sss'
                 },{
                     name :'page-job',
-                    text :'职业技能',
+                    text :'工作履历',
                     to   :'/job'
                 },{
                     name :'page-about',
