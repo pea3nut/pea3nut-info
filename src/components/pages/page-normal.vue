@@ -193,7 +193,7 @@ export default {
                 text:'男 <i class="fa fa-mars" style="color:#5b75ff;font-weight: bold;"></i>',
             },{
                 label:'婚姻状态',
-                text:'努力求偶中',
+                text:'单身，努力求偶中',
             },{
                 label:'年龄',
                 text:this.getPeA3nutAge(),
