@@ -192,6 +192,9 @@ export default {
                 label:'性别',
                 text:'男 <i class="fa fa-mars" style="color:#5b75ff;font-weight: bold;"></i>',
             },{
+                label:'婚姻状态',
+                text:'努力求偶中',
+            },{
                 label:'年龄',
                 text:this.getPeA3nutAge(),
             },{
@@ -200,6 +203,9 @@ export default {
             },{
                 label:'毕业院校',
                 text:'青岛理工大学',
+            },{
+                label:'国籍/身份',
+                text:'中国公民'
             },{
                 label:'现居地',
                 text:this.Info['present_address'],
