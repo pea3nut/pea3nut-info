@@ -45,7 +45,7 @@ export const Info ={
     working_for    :'Tik Tok',
     job_title      :'Web前端开发',
     present_address:'新加坡',
-    marriage       :'单身',
+    marriage       :'努力求偶中',
 };
 `;
 

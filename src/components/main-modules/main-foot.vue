@@ -6,7 +6,7 @@
             by <a href="http://pea3nut.com/" target="_blank">花生Peadar</a>.
         </p>
         <p>
-            <a href="http://www.miitbeian.gov.cn/" target="_blank">鲁ICP备15006545号-2</a>.
+            <a href="http://beian.miit.gov.cn/" target="_blank">鲁ICP备15006545号-2</a>.
             All rights reserved.
         </p>
     </footer>
