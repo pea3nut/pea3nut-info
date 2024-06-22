@@ -52,11 +52,11 @@
 
                 ---
 
-                - 负责字节内部敏感词管理系统，承接字节内包含 TikTok 的所有海外产品的敏感词业务
-                - 牵头 GPT 项目，为敏感词项目赋能、产出业务方案、GPT 知识分享、团队成员
-                - 与合作方共同完成业务定位、路线规划、阶段拆分、建立业务指标
-                - 负责敏感词前端团队。建立团队工作流、上下游合作流程、理清职责边界、团队成员培养
-                - 负责敏感词管理系统整体技术规划、负责安全和稳定性，建立技术基础设施迎接业务挑战、工程化方案、权限模型等
+                - 负责字节海外产品的统一文本安全平台，包括 TikTok、Lark、Pico 等
+                - 负责文本安全业务的技术和业务规划，与各个职能团队合作规划业务目标、拆分里程碑，以完成业务目标
+                - 负责 2 个前端项目和 2 个 Node.js 服务的技术基础建设、工程及合作流程搭建
+                - 发起并主导 GPT 赋能项目，在某业务场景提升 47.7% 的准确率和 7.6% 召回率提升
+                - 纯英文环境下负责 3 名新加坡本地人团队成员指导，使其独当一面，令其负责某个能够对齐其职业目标的子方向
 
                 > 技术栈：React，Node.js，TypeScript，全栈开发
             </block-justify-row>
@@ -171,6 +171,7 @@
             </block-justify-row>
         </block-justify>
         <block-collapsible lang="md" title="相关链接">
+            - 领英：[Peadar Liu](https://www.linkedin.com/in/peadar-liu/)
             - 个人资料网站：[pea3nut.info](http://pea3nut.info/)
             - 个人博客：[pea3nut.blog](http://pea3nut.blog/)
             - Github：[github/pea3nut](https://github.com/pea3nut/)
@@ -263,15 +264,18 @@ export default {
             return reArr;
         },
         headerDescription(){
-            return[{
-                label:'下载',
-                text:`
-                    <a href="/static/resource/resume/LiuBoYuan-Github500star.pdf" target="_blank">精简版</a>
-                `,
-            },{
-                label :'最后更新',
-                text :formatDate(this.LastUpdateTime,{hasTime:false,fillZeroOfDate:true}),
-            }];
+            return[
+                // {
+                //     label:'下载',
+                //     text:`
+                //         <a href="/static/resource/resume/LiuBoYuan-Github500star.pdf" target="_blank">精简版</a>
+                //     `,
+                // },
+                {
+                    label :'最后更新',
+                    text :formatDate(this.LastUpdateTime,{hasTime:false,fillZeroOfDate:true}),
+                },
+            ];
         },
     },
 };

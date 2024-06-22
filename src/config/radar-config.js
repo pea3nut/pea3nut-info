@@ -1,22 +1,19 @@
 export var NormalRadarInfo = [
     {
-        "label": "动漫",
+        "label": "I 内向",
         "value": 85
     }, {
-        "label": "音乐",
-        "value": 100
+        "label": "N 直觉",
+        "value": 78
     }, {
-        "label": "运动",
-        "value": 15
+        "label": "T 理性",
+        "value": 63
     }, {
-        "label": "社交",
-        "value": 30
+        "label": "J 评判",
+        "value": 82
     }, {
-        "label": "游戏",
-        "value": 70
-    }, {
-        "label": "写代码",
-        "value": 75
+        "label": "T 起伏",
+        "value": 60
     }
 ];
 export var JobRadarInfo = [

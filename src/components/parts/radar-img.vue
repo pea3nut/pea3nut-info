@@ -102,7 +102,8 @@ export default{
 <style scoped="scoped" lang="scss">
 .radar-img{
     min-height: 320px;
-    min-width: 320px;
+    min-width: 350px;
+    margin-left: -30px;
     flex-shrink: 0;
     font-size: 16px;
     letter-spacing: 0;

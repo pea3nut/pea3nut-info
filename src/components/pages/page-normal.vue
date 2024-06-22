@@ -222,8 +222,8 @@ export default {
               label:'现状态',
               text:this.Info['now_state'],
             },{
-              label:'喜欢的东西',
-              text:'装满水的水杯、空空的垃圾桶',
+              label:'MBTI性格',
+              text:'INTJ-T',
             }]
         },
     },
