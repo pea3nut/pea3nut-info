@@ -193,13 +193,13 @@ export default {
                 text:'男 <i class="fa fa-mars" style="color:#5b75ff;font-weight: bold;"></i>',
             },{
                 label:'婚姻状态',
-                text:'单身，努力求偶中',
+                text:'热恋中',
             },{
                 label:'年龄',
                 text:this.getPeA3nutAge(),
             },{
                 label:'身高/体重',
-                text:'170cm/60kg',
+                text:'173cm/60kg',
             },{
                 label:'毕业院校',
                 text:'青岛理工大学',
